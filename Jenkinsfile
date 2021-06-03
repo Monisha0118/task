@@ -16,7 +16,7 @@ pipeline{
        stage(test)
       {
         steps{
-          echo "Moni"
+          echo "devops"
         }
       }
     }
