@@ -4,7 +4,7 @@ pipeline{
     stage(checkout)
     {
       steps{
-        echo "Hi"
+        sh "cp index.html /var/www/html"
       }
     }
       stage(build)
