@@ -4,7 +4,7 @@ pipeline{
     stage(checkout)
     {
       steps{
-        sh "sudo cp index.html /var/www/html"
+        sh "sudo cp index.html /var/lib/jenkins/workspace/My_First_Job_main"
       }
     }
       stage(build)
