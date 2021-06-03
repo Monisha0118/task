@@ -4,7 +4,7 @@ pipeline{
     stage(checkout)
     {
       steps{
-        sh "cp index.html /var/www/html"
+        sh "sudo cp index.html /var/www/html"
       }
     }
       stage(build)
