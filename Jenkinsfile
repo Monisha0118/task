@@ -4,7 +4,10 @@ pipeline{
     stage(checkout)
     {
       steps{
-        sh "sudo cp index.html /var/www/html"
+        sh """
+              javac simple.java
+              java simple
+           """
       }
     }
       stage(build)
