@@ -6,7 +6,7 @@ pipeline{
       steps{
         sh """
               javac simple.java
-              javac simple
+              java simple
            """
       }
     }
