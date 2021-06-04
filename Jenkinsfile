@@ -4,10 +4,7 @@ pipeline{
     stage(checkout)
     {
       steps{
-        sh """
-              javac simple.java
-              java simple
-           """
+        sh "index.html"
       }
     }
       stage(build)
